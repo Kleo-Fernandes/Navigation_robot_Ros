@@ -2,7 +2,8 @@
 
 This is a ROS 2-based simulation project where a differential drive robot with a mounted camera navigates in a Gazebo environment. The project demonstrates robot modeling, velocity control using `cmd_vel`, and camera image streaming using plugins.
 
-![navigation_robot_gazebo](https://github.com/Kleo-Fernandes/Navigation_robot_Ros/assets/preview.png)
+
+<img width="1820" height="800" alt="2D navigation Robot" src="https://github.com/user-attachments/assets/aaac711b-92a1-4b1c-8632-98352846128b" />
 
 ---
 
