@@ -45,7 +45,7 @@ Enable basic motion control using `/cmd_vel` and visualize the camera stream for
 
 ```bash
 # Launch Gazebo simulation
-ros2 launch navigation_robot_bringup navigation_robot_gazebo.launch.py
+ros2 launch navigation_robot_bringup navigation_robot_gazebo.launch.xml
 
 # Send movement commands
 ros2 topic pub /cmd_vel geometry_msgs/msg/Twist '{linear: {x: 0.5}, angular: {z: 0.2}}'
