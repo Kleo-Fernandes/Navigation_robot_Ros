@@ -7,6 +7,11 @@
 
   <gazebo reference="right_wheel_link">
     <material>Gazebo/Grey</material>
+    <gazebo reference="right_wheel_link">
+    <mu1 value="0.1"/>
+    <mu2 value="0.1"/>
+  </gazebo>
+
   </gazebo>
 
   <gazebo reference="left_wheel_link">
