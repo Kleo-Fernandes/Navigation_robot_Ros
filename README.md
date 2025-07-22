@@ -23,6 +23,9 @@ This robot simulation features a mobile base with differential drive control and
 
 Enable basic motion control using `/cmd_vel` and visualize the camera stream for perception-based navigation experiments.
 
+or make use of:
+`ros2 run teleop_twist_keyboard teleop_twist_keyboard` with i , j , and l to control the movement of the robot
+
 ---
 
 ## Key Features
