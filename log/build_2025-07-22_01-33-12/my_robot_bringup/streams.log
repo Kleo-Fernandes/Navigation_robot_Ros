@@ -1,0 +1,44 @@
+[0.024s] Invoking command in '/home/kleo/ros2_ws/src/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/kleo/ros2_ws/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kleo/ros2_ws/src/install/my_robot_description:/home/kleo/ros2_ws/install/my_robot_bringup:/home/kleo/ros2_ws/install/my_robot_description:/opt/ros/humble /usr/bin/cmake /home/kleo/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kleo/ros2_ws/src/install/my_robot_bringup
+[0.139s] -- The C compiler identification is GNU 11.4.0
+[0.312s] -- The CXX compiler identification is GNU 11.4.0
+[0.321s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.436s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.436s] -- Detecting C compile features
+[0.436s] -- Detecting C compile features - done
+[0.438s] -- Detecting CXX compiler ABI info
+[0.581s] -- Detecting CXX compiler ABI info - done
+[0.584s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.585s] -- Detecting CXX compile features
+[0.585s] -- Detecting CXX compile features - done
+[0.588s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.774s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.848s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.102s] -- Configuring done
+[1.126s] -- Generating done
+[1.128s] -- Build files have been written to: /home/kleo/ros2_ws/src/build/my_robot_bringup
+[1.132s] Invoked command in '/home/kleo/ros2_ws/src/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/kleo/ros2_ws/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kleo/ros2_ws/src/install/my_robot_description:/home/kleo/ros2_ws/install/my_robot_bringup:/home/kleo/ros2_ws/install/my_robot_description:/opt/ros/humble /usr/bin/cmake /home/kleo/ros2_ws/src/my_robot_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kleo/ros2_ws/src/install/my_robot_bringup
+[1.135s] Invoking command in '/home/kleo/ros2_ws/src/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/kleo/ros2_ws/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kleo/ros2_ws/src/install/my_robot_description:/home/kleo/ros2_ws/install/my_robot_bringup:/home/kleo/ros2_ws/install/my_robot_description:/opt/ros/humble /usr/bin/cmake --build /home/kleo/ros2_ws/src/build/my_robot_bringup -- -j3 -l3
+[1.186s] Invoked command in '/home/kleo/ros2_ws/src/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/kleo/ros2_ws/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kleo/ros2_ws/src/install/my_robot_description:/home/kleo/ros2_ws/install/my_robot_bringup:/home/kleo/ros2_ws/install/my_robot_description:/opt/ros/humble /usr/bin/cmake --build /home/kleo/ros2_ws/src/build/my_robot_bringup -- -j3 -l3
+[1.187s] Invoking command in '/home/kleo/ros2_ws/src/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/kleo/ros2_ws/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kleo/ros2_ws/src/install/my_robot_description:/home/kleo/ros2_ws/install/my_robot_bringup:/home/kleo/ros2_ws/install/my_robot_description:/opt/ros/humble /usr/bin/cmake --install /home/kleo/ros2_ws/src/build/my_robot_bringup
+[1.195s] -- Install configuration: ""
+[1.196s] -- Execute custom install script
+[1.200s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.xml
+[1.216s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup//rviz/urdf_config.rviz
+[1.232s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup//worlds/my_world.world
+[1.245s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[1.256s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[1.267s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[1.277s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[1.286s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[1.295s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[1.311s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[1.323s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[1.334s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[1.347s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[1.363s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[1.383s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[1.409s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[1.426s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[1.444s] -- Symlinking: /home/kleo/ros2_ws/src/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[1.462s] Invoked command in '/home/kleo/ros2_ws/src/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/kleo/ros2_ws/src/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kleo/ros2_ws/src/install/my_robot_description:/home/kleo/ros2_ws/install/my_robot_bringup:/home/kleo/ros2_ws/install/my_robot_description:/opt/ros/humble /usr/bin/cmake --install /home/kleo/ros2_ws/src/build/my_robot_bringup

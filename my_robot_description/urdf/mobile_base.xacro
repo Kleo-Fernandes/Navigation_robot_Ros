@@ -50,8 +50,8 @@
     </collision>
     <xacro:cylinder_inertia 
       m="1.0" 
-      r="${2.0 * 0.1}" 
-      h="${2.0 * 0.05}"
+      r="${0.1}" 
+      h="${0.05}"
       xyz="0 0 0" 
       rpy="${pi / 2.0} 0 0" />
   </link>
